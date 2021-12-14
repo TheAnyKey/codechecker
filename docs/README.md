@@ -21,6 +21,7 @@
   </a>
 </p>
 
+
 **CodeChecker** is a static analysis infrastructure built on the [LLVM/Clang
 Static Analyzer](http://clang-analyzer.llvm.org) toolchain, replacing
 [`scan-build`](http://clang-analyzer.llvm.org/scan-build.html) in a Linux or
