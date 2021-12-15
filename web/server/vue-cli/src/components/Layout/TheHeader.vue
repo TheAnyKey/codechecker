@@ -41,7 +41,7 @@
     </v-app-bar-nav-icon>
 
     <v-toolbar-title class="pl-0">
-      CodeChecker {{ packageVersion }}
+      TheAnyKeyChecker {{ packageVersion }}
     </v-toolbar-title>
 
     <v-chip
