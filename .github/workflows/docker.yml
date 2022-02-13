@@ -2,6 +2,7 @@ name: codechecker-docker
 
 # Triggers the workflow when a new release is published.
 on:
+  workflow_dispatch:
   release:
     types: [published]
 
