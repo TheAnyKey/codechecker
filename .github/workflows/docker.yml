@@ -34,6 +34,6 @@ jobs:
           file: ./web/docker/Dockerfile
           tags: |
             therealanykey/theanykey:latest
-            therealanykey/theanykey:v1
+            therealanykey/theanykey:master
           build-args: |
-            CC_VERSION=v1
+            CC_VERSION=master
