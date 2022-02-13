@@ -33,7 +33,7 @@ jobs:
           context: ./web/docker/
           file: ./web/docker/Dockerfile
           tags: |
-            codechecker/codechecker-web:latest
-            codechecker/codechecker-web:${{ steps.get_version.outputs.VERSION }}
+            therealanykey/theanykey:latest
+            therealanykey/theanykey:${{ steps.get_version.outputs.VERSION }}
           build-args: |
             CC_VERSION=v${{ steps.get_version.outputs.VERSION }}
