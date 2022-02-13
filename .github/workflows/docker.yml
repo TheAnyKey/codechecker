@@ -34,6 +34,6 @@ jobs:
           file: ./web/docker/Dockerfile
           tags: |
             therealanykey/theanykey:latest
-            therealanykey/theanykey:1
+            therealanykey/theanykey:v1
           build-args: |
-            CC_VERSION=v${{ steps.get_version.outputs.VERSION }}
+            CC_VERSION=v1
